@@ -1,0 +1,6 @@
+export { default as InputColor} from './InputColor'
+export { default as InputValue} from './InputValue'
+export { default as ResultColors} from './ResultColors'
+export { default as ResultResister} from './ResultResister'
+export { default as ShowColors} from './ShowColors'
+export { default as Unit} from './Unit'

@@ -1,0 +1,100 @@
+.section{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.section-container{
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 1rem;
+  height: auto;
+  width: calc(100% - 2rem);  
+}
+
+.App{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box{
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 602px;
+  width: 100%;
+  max-width: 400px;
+  padding:0  1rem;
+  /* border:1px solid #ddd; */
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+}
+
+.space_small{
+  margin-top: 10px;
+}
+
+.space_medium{
+  margin-top: 20px;
+}
+
+.space_large{
+  margin-top: 30px;
+}
+
+.show-colors{
+  display: flex;
+  justify-content: center;
+  gap: 15px
+}
+
+.input-selects{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.result{
+  text-align: center;
+}
+
+.header{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.calcValue{
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 130px;
+  margin: 0 auto 45px
+}
+
+.calcValue h4{
+  margin: 10px;
+}
+
+.calcValue h3{
+  margin: 10px;
+}
+
+.result-colors{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
